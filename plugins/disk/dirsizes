@@ -101,7 +101,7 @@ sub getSize {
 sub niceLabelname {
     my ($label) = @_;
 
-    $label =~ s@[\/-]@_@g;
+    $label =~ s@[\.\/-]@_@g;
     return $label;
 }
 
